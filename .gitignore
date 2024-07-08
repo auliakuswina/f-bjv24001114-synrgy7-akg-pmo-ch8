@@ -1,0 +1,3 @@
+# Project exclude paths
+/challenge8/target/
+/gateway-service-config/target/

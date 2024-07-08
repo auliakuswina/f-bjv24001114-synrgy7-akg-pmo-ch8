@@ -1,0 +1,204 @@
+[2024-05-15 21:16:53,087][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 17.0.10 with PID 10070 (/home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot/target/classes started by irfiyanda in /home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot)
+[2024-05-15 21:16:53,100][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-15 21:16:57,083][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-15 21:16:57,408][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 296 ms. Found 6 JPA repository interfaces.
+[2024-05-15 21:16:59,416][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8082 (http)
+[2024-05-15 21:16:59,445][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:16:59,455][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-15 21:16:59,457][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-15 21:16:59,698][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-15 21:16:59,700][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 6251 ms
+[2024-05-15 21:17:00,163][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-15 21:17:00,384][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-15 21:17:00,514][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-15 21:17:01,428][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-15 21:17:01,542][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-15 21:17:02,605][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@618f627b
+[2024-05-15 21:17:02,610][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-15 21:17:06,806][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-15 21:17:07,279][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:17:08,162][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-15 21:17:10,556][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-15 21:17:11,569][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-05-15 21:17:12,047][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:17:12,087][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8082 (http) with context path ''
+[2024-05-15 21:17:12,129][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 21.656 seconds (process running for 24.064)
+[2024-05-15 21:17:12,137][INFO ][com.example.batch7.Batch7Application][main][17]info logging level
+[2024-05-15 21:17:12,137][ERROR][com.example.batch7.Batch7Application][main][18]eror logging level
+[2024-05-15 21:17:12,138][WARN ][com.example.batch7.Batch7Application][main][19]warning logging level
+[2024-05-15 21:17:12,139][ERROR][com.example.batch7.Batch7Application][main][22]Error processing request
+[2024-05-15 21:19:47,181][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8082-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-15 21:19:47,182][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8082-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-15 21:19:47,186][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8082-exec-2][554]Completed initialization in 4 ms
+[2024-05-15 21:19:47,309][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8082-exec-2][175]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.FileNotFoundException: ./cdn/out2.zip (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at com.example.batch7.ch8.utils.zip.ZipClass.zipFiles(ZipClass.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[2024-05-15 21:22:59,149][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:22:59,160][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-15 21:22:59,223][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-15 21:23:12,249][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 17.0.10 with PID 10737 (/home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot/target/classes started by irfiyanda in /home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot)
+[2024-05-15 21:23:12,262][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-15 21:23:15,716][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-15 21:23:15,986][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 244 ms. Found 6 JPA repository interfaces.
+[2024-05-15 21:23:17,710][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8082 (http)
+[2024-05-15 21:23:17,738][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:23:17,748][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-15 21:23:17,753][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-15 21:23:18,004][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-15 21:23:18,006][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 5377 ms
+[2024-05-15 21:23:18,551][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-15 21:23:18,793][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-15 21:23:18,908][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-15 21:23:19,675][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-15 21:23:19,788][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-15 21:23:20,921][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8af1c49
+[2024-05-15 21:23:20,927][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-15 21:23:27,886][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-15 21:23:28,695][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:23:30,403][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-15 21:23:33,690][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-15 21:23:35,732][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-05-15 21:23:36,503][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:23:36,637][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8082 (http) with context path ''
+[2024-05-15 21:23:36,669][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 27.054 seconds (process running for 28.774)
+[2024-05-15 21:23:36,687][INFO ][com.example.batch7.Batch7Application][main][17]info logging level
+[2024-05-15 21:23:36,691][ERROR][com.example.batch7.Batch7Application][main][18]eror logging level
+[2024-05-15 21:23:36,692][WARN ][com.example.batch7.Batch7Application][main][19]warning logging level
+[2024-05-15 21:23:36,693][ERROR][com.example.batch7.Batch7Application][main][22]Error processing request
+[2024-05-15 21:23:38,931][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8082-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-05-15 21:23:38,932][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8082-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-05-15 21:23:38,939][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8082-exec-2][554]Completed initialization in 5 ms
+[2024-05-15 21:45:05,932][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:45:06,531][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-15 21:45:09,221][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-15 21:52:37,288][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 17.0.10 with PID 12395 (/home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot/target/classes started by irfiyanda in /home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot)
+[2024-05-15 21:52:37,298][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-15 21:52:42,991][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-15 21:52:44,627][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 1446 ms. Found 6 JPA repository interfaces.
+[2024-05-15 21:52:48,697][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8082 (http)
+[2024-05-15 21:52:48,750][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:52:48,761][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-15 21:52:48,766][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-15 21:52:49,191][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-15 21:52:49,193][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 11187 ms
+[2024-05-15 21:52:49,919][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-15 21:52:50,191][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-15 21:52:50,348][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-15 21:52:51,835][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-15 21:52:52,103][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-15 21:52:53,535][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48b2dbc4
+[2024-05-15 21:52:53,542][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-15 21:52:58,260][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-15 21:52:58,784][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:53:00,086][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-05-15 21:53:02,901][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-05-15 21:53:04,235][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-05-15 21:53:04,817][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:53:04,864][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8082 (http) with context path ''
+[2024-05-15 21:53:04,922][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 30.413 seconds (process running for 32.864)
+[2024-05-15 21:53:05,970][INFO ][com.example.batch7.Batch7Application][main][17]info logging level
+[2024-05-15 21:53:05,970][ERROR][com.example.batch7.Batch7Application][main][18]eror logging level
+[2024-05-15 21:53:05,971][WARN ][com.example.batch7.Batch7Application][main][19]warning logging level
+[2024-05-15 21:53:05,971][ERROR][com.example.batch7.Batch7Application][main][22]Error processing request
+[2024-05-15 21:53:23,539][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:53:23,557][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-15 21:53:23,615][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-05-15 21:53:43,138][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting PDFCreateExample using Java 17.0.10 with PID 12537 (/home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot/target/classes started by irfiyanda in /home/irfiyanda/Documents/synrgy-BEJ/challenge4/batch7-spring-boot)
+[2024-05-15 21:53:43,160][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-15 21:53:47,649][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-05-15 21:53:47,802][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+[2024-05-15 21:53:51,595][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8082 (http)
+[2024-05-15 21:53:51,634][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8082"]
+[2024-05-15 21:53:51,644][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-05-15 21:53:51,646][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-05-15 21:53:52,323][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-05-15 21:53:52,325][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 8808 ms
+[2024-05-15 21:53:53,330][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-05-15 21:53:53,560][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-05-15 21:53:53,671][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-05-15 21:53:54,889][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-05-15 21:53:55,370][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-05-15 21:53:57,473][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21e484b
+[2024-05-15 21:53:57,479][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-05-15 21:53:59,672][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-05-15 21:53:59,711][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:53:59,780][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'PDFCreateExample': Unsatisfied dependency expressed through field 'userRepository': No qualifying bean of type 'com.example.batch7.ch8.repository.UserRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[2024-05-15 21:53:59,782][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-15 21:53:59,795][INFO ][com.zaxxer.hikari.HikariDataSource][main][350]HikariPool-1 - Shutdown initiated...
+[2024-05-15 21:53:59,864][INFO ][com.zaxxer.hikari.HikariDataSource][main][352]HikariPool-1 - Shutdown completed.
+[2024-05-15 21:53:59,876][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Stopping service [Tomcat]
+[2024-05-15 21:53:59,955][INFO ][org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger][main][82]
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2024-05-15 21:54:00,093][ERROR][org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter][main][40]
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userRepository in com.example.batch7.ch8.utils.itext.PDFCreateExample required a bean of type 'com.example.batch7.ch8.repository.UserRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.batch7.ch8.repository.UserRepository' in your configuration.
+

@@ -1,0 +1,1115 @@
+[2024-04-26 17:59:27,637][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 24940 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 17:59:27,640][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 17:59:28,496][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 17:59:28,559][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+[2024-04-26 17:59:29,282][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 17:59:29,293][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 17:59:29,297][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 17:59:29,297][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 17:59:29,365][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 17:59:29,365][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1671 ms
+[2024-04-26 17:59:29,626][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 17:59:29,769][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 17:59:29,832][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 17:59:30,116][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 17:59:30,155][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 17:59:30,452][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7be38eba
+[2024-04-26 17:59:30,454][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 17:59:31,561][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 17:59:31,641][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 17:59:32,060][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 17:59:32,176][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 17:59:32,694][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 17:59:32,728][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 17:59:32,740][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 5.729 seconds (process running for 6.196)
+[2024-04-26 17:59:32,745][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 17:59:32,745][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 17:59:32,745][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 17:59:32,746][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:01:22,007][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:01:22,010][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:01:22,026][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:01:26,366][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 33436 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:01:26,369][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:01:27,171][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:01:27,232][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+[2024-04-26 18:01:27,875][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:01:27,887][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:01:27,889][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:01:27,890][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:01:27,960][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:01:27,961][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1524 ms
+[2024-04-26 18:01:28,162][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:01:28,246][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:01:28,294][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:01:28,538][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:01:28,570][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:01:28,796][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b6def36
+[2024-04-26 18:01:28,798][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:01:29,732][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:01:29,774][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:01:30,029][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:01:30,118][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:01:30,517][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:01:30,543][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:01:30,555][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.806 seconds (process running for 5.173)
+[2024-04-26 18:01:30,559][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:01:30,559][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:01:30,559][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:01:30,559][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:02:36,327][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:02:36,330][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:02:36,336][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:02:40,949][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 13224 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:02:40,958][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:02:41,711][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:02:41,776][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+[2024-04-26 18:02:42,426][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:02:42,437][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:02:42,441][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:02:42,441][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:02:42,514][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:02:42,515][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1503 ms
+[2024-04-26 18:02:42,666][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:02:42,720][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:02:42,756][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:02:43,051][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:02:43,089][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:02:43,351][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ad889be
+[2024-04-26 18:02:43,353][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:02:44,272][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:02:44,310][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:02:44,620][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:02:44,711][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:02:45,167][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:02:45,198][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:02:45,211][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.898 seconds (process running for 5.321)
+[2024-04-26 18:02:45,214][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:02:45,214][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:02:45,215][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:02:45,215][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:03:17,023][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:03:17,025][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:03:17,036][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:03:27,101][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 11812 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:03:27,104][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:03:27,876][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:03:27,969][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+[2024-04-26 18:03:28,901][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:03:28,913][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:03:28,915][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:03:28,915][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:03:28,996][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:03:28,997][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1822 ms
+[2024-04-26 18:03:29,230][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:03:29,313][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:03:29,359][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:03:29,758][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:03:29,805][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:03:30,180][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@496cedbb
+[2024-04-26 18:03:30,184][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:03:31,528][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:03:31,568][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:03:31,926][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:03:32,070][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:03:32,667][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:03:32,697][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:03:32,710][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 6.273 seconds (process running for 6.749)
+[2024-04-26 18:03:32,715][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:03:32,716][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:03:32,716][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:03:32,716][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:03:54,547][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:03:54,550][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:03:54,553][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:03:57,236][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 27684 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:03:57,245][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:03:57,913][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:03:57,970][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+[2024-04-26 18:03:58,642][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:03:58,658][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:03:58,660][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:03:58,660][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:03:58,724][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:03:58,724][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1422 ms
+[2024-04-26 18:03:58,894][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:03:58,976][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:03:59,020][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:03:59,270][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:03:59,306][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:03:59,554][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b322873
+[2024-04-26 18:03:59,555][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:04:00,392][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:04:00,432][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:04:00,670][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:04:00,748][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:04:01,134][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:04:01,162][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:04:01,171][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.525 seconds (process running for 4.962)
+[2024-04-26 18:04:01,174][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:04:01,175][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:04:01,175][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:04:01,175][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:04:11,788][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:04:11,790][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:04:11,794][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:04:14,214][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 24460 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:04:14,218][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:04:14,965][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:04:15,030][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+[2024-04-26 18:04:15,647][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:04:15,656][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:04:15,658][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:04:15,658][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:04:15,721][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:04:15,721][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1431 ms
+[2024-04-26 18:04:15,895][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:04:15,956][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:04:15,997][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:04:16,213][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:04:16,250][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:04:16,469][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d7740f0
+[2024-04-26 18:04:16,470][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:04:17,308][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:04:17,348][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:04:17,646][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:04:17,726][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:04:18,199][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:04:18,229][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:04:18,240][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.636 seconds (process running for 5.083)
+[2024-04-26 18:04:18,244][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:04:18,245][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:04:18,245][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:04:18,245][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:05:19,518][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-8][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-26 18:05:19,519][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-8][532]Initializing Servlet 'dispatcherServlet'
+[2024-04-26 18:05:19,521][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-8][554]Completed initialization in 2 ms
+[2024-04-26 18:07:07,736][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:07:07,738][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:07:07,743][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:07:13,529][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 18692 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:07:13,531][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:07:14,261][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:07:14,320][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+[2024-04-26 18:07:14,939][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:07:14,955][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:07:14,957][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:07:14,957][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:07:15,026][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:07:15,026][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1445 ms
+[2024-04-26 18:07:15,212][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:07:15,293][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:07:15,326][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:07:15,553][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:07:15,586][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:07:15,807][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@496cedbb
+[2024-04-26 18:07:15,808][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:07:16,707][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:07:16,743][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:07:17,021][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:07:17,135][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:07:17,534][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:07:17,574][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:07:17,592][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.636 seconds (process running for 5.015)
+[2024-04-26 18:07:17,596][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:07:17,597][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:07:17,597][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:07:17,597][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:13:02,850][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:13:02,853][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:13:02,860][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:16:26,719][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 7408 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:16:26,721][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:16:27,461][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:16:27,530][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+[2024-04-26 18:16:28,237][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:16:28,254][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:16:28,258][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:16:28,258][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:16:28,346][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:16:28,347][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1574 ms
+[2024-04-26 18:16:28,527][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:16:28,607][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:16:28,645][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:16:28,908][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:16:28,940][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:16:29,160][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6164e137
+[2024-04-26 18:16:29,162][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:16:30,297][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:16:30,340][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:16:30,602][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:16:30,666][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:16:30,985][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:16:31,113][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:16:31,139][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:16:31,149][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 5.044 seconds (process running for 5.417)
+[2024-04-26 18:16:31,152][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:16:31,153][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:16:31,153][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:16:31,153][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:20:06,095][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:20:06,099][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:20:06,103][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:20:08,609][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 4948 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:20:08,614][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:20:09,423][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:20:09,482][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+[2024-04-26 18:20:10,279][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:20:10,296][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:20:10,298][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:20:10,299][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:20:10,386][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:20:10,387][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1714 ms
+[2024-04-26 18:20:10,611][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:20:10,762][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:20:10,813][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:20:11,072][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:20:11,106][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:20:11,350][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68fc9167
+[2024-04-26 18:20:11,351][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:20:12,277][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:20:12,320][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:20:12,613][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:20:12,761][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:20:13,244][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:20:13,397][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:20:13,430][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:20:13,444][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 5.445 seconds (process running for 5.875)
+[2024-04-26 18:20:13,449][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:20:13,449][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:20:13,450][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:20:13,450][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:21:28,828][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:21:28,831][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:21:28,834][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:21:33,899][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 25872 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:21:33,902][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:21:34,652][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:21:34,710][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+[2024-04-26 18:21:35,427][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:21:35,443][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:21:35,447][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:21:35,447][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:21:35,543][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:21:35,543][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1583 ms
+[2024-04-26 18:21:35,713][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:21:35,828][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:21:35,877][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:21:36,131][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:21:36,164][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:21:36,383][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54f2df29
+[2024-04-26 18:21:36,385][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:21:37,345][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:21:37,392][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:21:37,636][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:21:37,695][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:21:38,013][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:21:38,114][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:21:38,147][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:21:38,155][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.867 seconds (process running for 5.301)
+[2024-04-26 18:21:38,159][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:21:38,159][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:21:38,159][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:21:38,159][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:22:23,009][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:22:23,013][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:22:23,016][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:22:27,273][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 14264 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:22:27,278][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:22:28,196][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:22:28,266][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[2024-04-26 18:22:29,196][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:22:29,211][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:22:29,215][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:22:29,215][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:22:29,307][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:22:29,308][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1948 ms
+[2024-04-26 18:22:29,530][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:22:29,668][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:22:29,730][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:22:30,078][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:22:30,118][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:22:30,390][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37d0d373
+[2024-04-26 18:22:30,393][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:22:31,830][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:22:31,901][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:22:32,285][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:22:32,407][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:22:33,076][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:22:33,250][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:22:33,289][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:22:33,305][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 6.688 seconds (process running for 7.161)
+[2024-04-26 18:22:33,310][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:22:33,310][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:22:33,310][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:22:33,311][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:31:02,289][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:31:02,292][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:31:02,299][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:31:06,604][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 9948 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:31:06,608][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:31:07,250][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:31:07,310][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+[2024-04-26 18:31:08,028][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:31:08,040][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:31:08,042][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:31:08,042][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:31:08,113][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:31:08,114][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1458 ms
+[2024-04-26 18:31:08,429][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:31:08,592][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:31:08,632][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:31:08,935][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:31:08,969][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:31:09,195][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68d6f48e
+[2024-04-26 18:31:09,197][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:31:10,126][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:31:10,168][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:31:10,445][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:31:10,809][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:31:11,080][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:31:11,163][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:31:11,189][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:31:11,203][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 5.231 seconds (process running for 5.633)
+[2024-04-26 18:31:11,207][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:31:11,208][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:31:11,208][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:31:11,208][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:31:23,454][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-26 18:31:23,455][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-04-26 18:31:23,456][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][554]Completed initialization in 1 ms
+[2024-04-26 18:31:23,526][ERROR][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][175]Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [CREATE OR REPLACE PROCEDURE public.insert1(INOUT resi d bigint, INOUT rqnama varchar)
+ LANGUAGE plpgsql
+AS $procedure$
+            begin
+            if rqnama is null Then 
+              raise notice 'nama kosong';
+             rqnama = 'nama wajib diisi';
+             return;
+            else 
+             raise notice 'nama  ada';
+            end if;  
+                 INSERT into public.employee
+                 (id, created_date, updated_date, address, dob, "name", status) 
+                 SELECT nextval('employee_id_seq'),
+                       now(),
+                       now(),
+                      'jakarta',
+                      '1970-01-15',
+                       rqnama,
+                       'active'
+                RETURNING id INTO resid; 
+               rqnama=rqnama;
+            END;
+            $procedure$
+;]] with root cause
+org.postgresql.util.PSQLException: ERROR: syntax error at or near "bigint"
+  Position: 57
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:335)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:321)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:297)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:292)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate$1ExecuteStatementCallback.doInStatement(JdbcTemplate.java:435)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:444)
+	at com.example.batch7.ch8.controller.EmployeeController.inject(EmployeeController.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-04-26 18:34:44,722][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:34:44,726][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:34:44,730][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:34:48,661][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 33140 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:34:48,664][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:34:49,372][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:34:49,433][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+[2024-04-26 18:34:50,087][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:34:50,096][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:34:50,099][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:34:50,099][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:34:50,182][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:34:50,182][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1470 ms
+[2024-04-26 18:34:50,367][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:34:50,445][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:34:50,484][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:34:50,723][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:34:50,760][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:34:50,982][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fef75c6
+[2024-04-26 18:34:50,983][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:34:51,877][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:34:51,911][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:34:52,191][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:34:52,590][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:34:52,887][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:34:52,987][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:34:53,014][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:34:53,025][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.934 seconds (process running for 5.327)
+[2024-04-26 18:34:53,030][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:34:53,030][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:34:53,030][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:34:53,030][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:34:58,912][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-1][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-26 18:34:58,912][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][532]Initializing Servlet 'dispatcherServlet'
+[2024-04-26 18:34:58,914][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-1][554]Completed initialization in 2 ms
+[2024-04-26 18:40:49,028][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 9740 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:40:49,032][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:40:49,618][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:40:49,681][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+[2024-04-26 18:40:50,318][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:40:50,329][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:40:50,333][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:40:50,333][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:40:50,432][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:40:50,432][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1384 ms
+[2024-04-26 18:40:50,663][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:40:50,747][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:40:50,791][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:40:51,088][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:40:51,126][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:40:51,456][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@995ad50
+[2024-04-26 18:40:51,457][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:40:52,379][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:40:52,413][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:40:52,749][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:40:53,190][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:40:53,483][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:40:53,598][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:40:53,626][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55199 (http) with context path '/api'
+[2024-04-26 18:40:53,637][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.998 seconds (process running for 5.801)
+[2024-04-26 18:40:54,418][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:40:54,419][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:40:54,427][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:40:54,427][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:40:54,459][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:40:54,462][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:40:54,467][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:41:19,867][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 20816 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:41:19,870][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:41:20,505][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:41:20,579][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+[2024-04-26 18:41:21,187][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:41:21,198][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:41:21,200][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:41:21,200][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:41:21,281][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:41:21,281][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1391 ms
+[2024-04-26 18:41:21,468][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:41:21,541][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:41:21,581][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:41:21,822][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:41:21,854][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:41:22,099][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@350d26f3
+[2024-04-26 18:41:22,103][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:41:22,954][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:41:22,991][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:41:23,279][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:41:23,617][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:41:23,935][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:41:24,052][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:41:24,075][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55235 (http) with context path '/api'
+[2024-04-26 18:41:24,084][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.613 seconds (process running for 5.368)
+[2024-04-26 18:41:24,690][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:41:24,690][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:41:24,694][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:41:24,694][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:41:24,760][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:41:24,761][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:41:24,762][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:41:24,762][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:41:24,790][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:41:24,792][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:41:24,800][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:44:23,457][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 20120 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:44:23,459][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:44:24,047][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:44:24,151][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interface.
+[2024-04-26 18:44:24,882][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:44:24,895][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:44:24,899][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:44:24,900][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:44:24,979][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:44:24,979][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1506 ms
+[2024-04-26 18:44:25,198][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:44:25,269][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:44:25,304][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:44:25,537][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:44:25,581][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:44:25,902][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cc708a7
+[2024-04-26 18:44:25,903][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:44:26,676][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:44:26,718][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:44:27,037][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:44:27,410][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:44:27,731][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:44:27,839][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:44:27,868][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55400 (http) with context path '/api'
+[2024-04-26 18:44:27,878][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.853 seconds (process running for 5.66)
+[2024-04-26 18:44:28,524][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:44:28,526][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:44:28,530][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:45:00,375][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 25648 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:45:00,378][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:45:00,967][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:45:01,053][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+[2024-04-26 18:45:01,693][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:45:01,703][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:45:01,705][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:45:01,706][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:45:01,772][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:45:01,772][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1377 ms
+[2024-04-26 18:45:01,946][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:45:02,022][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:45:02,065][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:45:02,336][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:45:02,374][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:45:02,646][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6249a08d
+[2024-04-26 18:45:02,649][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:45:03,500][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:45:03,536][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:45:03,814][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:45:04,276][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:45:04,707][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:45:04,872][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:45:04,896][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55438 (http) with context path '/api'
+[2024-04-26 18:45:04,907][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.938 seconds (process running for 5.698)
+[2024-04-26 18:45:05,533][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:45:05,533][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:45:05,537][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:45:05,538][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:45:05,619][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:45:05,620][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:45:05,621][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:45:05,622][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:45:05,653][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:45:05,656][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:45:05,669][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:45:55,921][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 3132 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:45:55,923][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:45:56,510][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:45:56,592][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+[2024-04-26 18:45:57,270][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:45:57,281][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:45:57,283][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:45:57,284][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:45:57,353][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:45:57,353][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1410 ms
+[2024-04-26 18:45:57,539][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:45:57,601][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:45:57,636][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:45:57,859][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:45:57,887][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:45:58,130][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6aa6c17
+[2024-04-26 18:45:58,132][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:45:59,080][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:45:59,121][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:45:59,445][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:45:59,781][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:46:00,126][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:46:00,239][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:46:00,261][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55500 (http) with context path '/api'
+[2024-04-26 18:46:00,270][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.736 seconds (process running for 5.513)
+[2024-04-26 18:46:00,922][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:46:00,923][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:46:00,928][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:46:00,929][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:46:00,982][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:46:00,982][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:46:00,983][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:46:00,983][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:46:01,007][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:46:01,009][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:46:01,014][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:46:03,166][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:46:03,168][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:46:03,172][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:46:05,556][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 3016 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:46:05,561][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:46:06,229][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:46:06,296][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[2024-04-26 18:46:06,925][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:46:06,934][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:46:06,936][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:46:06,936][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:46:07,023][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:46:07,023][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1414 ms
+[2024-04-26 18:46:07,193][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:46:07,261][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:46:07,301][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:46:07,556][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:46:07,595][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:46:07,834][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18e4551
+[2024-04-26 18:46:07,836][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:46:08,722][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:46:08,765][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:46:09,064][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:46:09,543][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:46:09,841][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:46:09,928][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:46:09,955][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:46:09,967][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.96 seconds (process running for 5.315)
+[2024-04-26 18:46:09,969][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:46:09,970][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:46:09,970][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:46:09,970][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:46:29,318][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 19628 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:46:29,320][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:46:30,071][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:46:30,175][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+[2024-04-26 18:46:31,128][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:46:31,140][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:46:31,143][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:46:31,144][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:46:31,246][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:46:31,246][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1910 ms
+[2024-04-26 18:46:31,476][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:46:31,566][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:46:31,615][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:46:31,879][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:46:31,914][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:46:32,125][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e349cf2
+[2024-04-26 18:46:32,126][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:46:32,937][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:46:32,977][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:46:33,278][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:46:33,683][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:46:34,004][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:46:34,115][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:46:34,142][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55567 (http) with context path '/api'
+[2024-04-26 18:46:34,151][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 5.281 seconds (process running for 6.085)
+[2024-04-26 18:46:34,773][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:46:34,773][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:46:34,777][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:46:34,778][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:46:34,838][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:46:34,838][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:46:34,839][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:46:34,840][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:46:34,866][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:46:34,869][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:46:34,876][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:47:10,143][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 33240 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:47:10,145][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:47:10,725][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:47:10,792][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[2024-04-26 18:47:11,408][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:47:11,418][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:47:11,420][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:47:11,421][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:47:11,504][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:47:11,505][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1344 ms
+[2024-04-26 18:47:11,668][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:47:11,736][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:47:11,779][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:47:12,033][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:47:12,069][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:47:12,288][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e349cf2
+[2024-04-26 18:47:12,291][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:47:13,135][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:47:13,178][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:47:13,463][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:47:13,793][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:47:14,102][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:47:14,217][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:47:14,241][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55615 (http) with context path '/api'
+[2024-04-26 18:47:14,250][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.529 seconds (process running for 5.334)
+[2024-04-26 18:47:14,740][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:47:14,740][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:47:14,748][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:47:14,748][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:47:14,782][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:47:14,784][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:47:14,788][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:48:14,360][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:48:14,365][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:48:14,369][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:48:20,515][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 13924 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:48:20,517][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:48:21,185][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:48:21,243][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+[2024-04-26 18:48:21,854][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:48:21,864][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:48:21,866][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:48:21,866][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:48:21,930][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:48:21,931][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1360 ms
+[2024-04-26 18:48:22,118][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:48:22,178][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:48:22,228][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:48:22,450][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:48:22,485][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:48:22,703][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1187dc82
+[2024-04-26 18:48:22,706][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:48:23,809][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:48:23,861][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:48:24,189][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:48:24,603][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:48:24,991][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:48:25,127][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:48:25,162][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:48:25,178][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 5.199 seconds (process running for 5.543)
+[2024-04-26 18:48:25,182][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:48:25,183][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:48:25,183][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:48:25,183][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:48:32,342][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 2076 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:48:32,344][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:48:33,012][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:48:33,089][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+[2024-04-26 18:48:33,736][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:48:33,749][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:48:33,752][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:48:33,752][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:48:33,830][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:48:33,831][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1466 ms
+[2024-04-26 18:48:34,001][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:48:34,063][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:48:34,109][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:48:34,346][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:48:34,379][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:48:34,601][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@134abd78
+[2024-04-26 18:48:34,604][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:48:35,635][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:48:35,682][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:48:36,037][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:48:36,531][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:48:36,926][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:48:37,039][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:48:37,067][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55735 (http) with context path '/api'
+[2024-04-26 18:48:37,079][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 5.264 seconds (process running for 6.202)
+[2024-04-26 18:48:37,759][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:48:37,759][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:48:37,764][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:48:37,764][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:48:37,838][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:48:37,838][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:48:37,840][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:48:37,840][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:48:37,871][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:48:37,873][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:48:37,880][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:49:12,235][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 9152 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:49:12,239][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:49:12,779][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:49:12,847][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[2024-04-26 18:49:13,469][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:49:13,477][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:49:13,479][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:49:13,480][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:49:13,546][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:49:13,546][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1290 ms
+[2024-04-26 18:49:13,730][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:49:13,790][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:49:13,823][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:49:14,063][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:49:14,099][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:49:14,308][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c0de229
+[2024-04-26 18:49:14,310][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:49:15,176][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:49:15,212][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:49:15,523][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:49:15,903][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:49:16,198][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:49:16,302][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:49:16,327][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55775 (http) with context path '/api'
+[2024-04-26 18:49:16,337][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.554 seconds (process running for 5.302)
+[2024-04-26 18:49:16,957][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:49:16,958][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:49:16,964][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:49:16,964][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:49:17,026][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:49:17,027][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:49:17,028][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:49:17,029][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:49:17,060][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:49:17,063][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:49:17,073][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:49:21,891][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:49:21,894][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:49:21,897][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 18:49:24,949][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 18080 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:49:24,953][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:49:25,565][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:49:25,634][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+[2024-04-26 18:49:26,229][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 18:49:26,245][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:49:26,247][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:49:26,248][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:49:26,315][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:49:26,315][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1312 ms
+[2024-04-26 18:49:26,477][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:49:26,538][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:49:26,571][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:49:26,775][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:49:26,804][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:49:27,014][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1187dc82
+[2024-04-26 18:49:27,016][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:49:27,792][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:49:27,828][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:49:28,084][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:49:28,479][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:49:28,747][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:49:28,826][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 18:49:28,855][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path '/api'
+[2024-04-26 18:49:28,864][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 4.454 seconds (process running for 4.81)
+[2024-04-26 18:49:28,867][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 18:49:28,867][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 18:49:28,867][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 18:49:28,867][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 18:50:12,431][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 11028 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 18:50:12,435][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 18:50:13,102][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 18:50:13,167][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+[2024-04-26 18:50:13,794][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 18:50:13,806][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:50:13,808][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 18:50:13,809][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 18:50:13,886][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 18:50:13,886][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 1425 ms
+[2024-04-26 18:50:14,061][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 18:50:14,142][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 18:50:14,182][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 18:50:14,453][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 18:50:14,482][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 18:50:14,842][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e948f1c
+[2024-04-26 18:50:14,845][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 18:50:15,740][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 18:50:15,781][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:50:16,074][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 18:50:16,396][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 18:50:16,696][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 18:50:16,813][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 18:50:16,839][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 55847 (http) with context path '/api'
+[2024-04-26 18:50:16,848][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 4.891 seconds (process running for 5.747)
+[2024-04-26 18:50:17,491][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 2D000
+[2024-04-26 18:50:17,492][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: invalid transaction termination
+  Where: PL/pgSQL function insert1(bigint,character varying) line 20 at COMMIT
+[2024-04-26 18:50:17,498][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 25P02
+[2024-04-26 18:50:17,498][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: current transaction is aborted, commands ignored until end of transaction block
+[2024-04-26 18:50:17,560][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:50:17,560][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:50:17,563][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 18:50:17,563][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 18:50:17,593][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 18:50:17,598][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 18:50:17,603][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 21:02:14,982][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:02:15,064][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 21:02:15,094][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 21:02:23,785][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 18.0.2.1 with PID 22744 (E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot\target\classes started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 21:02:23,791][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 21:02:25,216][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 21:02:25,346][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+[2024-04-26 21:02:26,505][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 8081 (http)
+[2024-04-26 21:02:26,523][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-8081"]
+[2024-04-26 21:02:26,526][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 21:02:26,526][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 21:02:26,627][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 21:02:26,628][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 2729 ms
+[2024-04-26 21:02:27,105][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 21:02:27,302][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 21:02:27,387][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 21:02:27,827][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 21:02:27,878][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 21:02:28,203][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@446c8c72
+[2024-04-26 21:02:28,205][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 21:02:29,858][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 21:02:29,969][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:02:30,345][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 21:02:30,891][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 21:02:31,334][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 21:02:31,442][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-8081"]
+[2024-04-26 21:02:31,492][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 8081 (http) with context path ''
+[2024-04-26 21:02:31,508][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started Batch7Application in 8.935 seconds (process running for 9.692)
+[2024-04-26 21:02:31,513][INFO ][com.example.batch7.Batch7Application][main][15]info logging level
+[2024-04-26 21:02:31,513][ERROR][com.example.batch7.Batch7Application][main][16]eror logging level
+[2024-04-26 21:02:31,514][WARN ][com.example.batch7.Batch7Application][main][17]warning logging level
+[2024-04-26 21:02:31,514][ERROR][com.example.batch7.Batch7Application][main][20]Error processing request
+[2024-04-26 21:03:06,720][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 13732 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 21:03:06,724][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 21:03:08,113][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 21:03:08,245][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+[2024-04-26 21:03:09,257][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 21:03:09,274][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:03:09,279][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 21:03:09,279][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 21:03:09,417][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 21:03:09,419][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 2649 ms
+[2024-04-26 21:03:09,712][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 21:03:09,902][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 21:03:10,004][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 21:03:10,466][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 21:03:10,519][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 21:03:10,848][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6249a08d
+[2024-04-26 21:03:10,853][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 21:03:12,606][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 21:03:12,680][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:03:13,249][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 21:03:14,049][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 21:03:14,680][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 21:03:14,900][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:03:14,989][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 57748 (http) with context path ''
+[2024-04-26 21:03:15,011][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 9.268 seconds (process running for 11.221)
+[2024-04-26 21:03:16,110][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 21:03:16,111][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 21:03:16,118][WARN ][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][145]SQL Error: 0, SQLState: 42883
+[2024-04-26 21:03:16,118][ERROR][org.hibernate.engine.jdbc.spi.SqlExceptionHelper][main][150]ERROR: procedure getemployeebyid(bigint, unknown) does not exist
+  Hint: No procedure matches the given name and argument types. You might need to add explicit type casts.
+  Position: 6
+[2024-04-26 21:03:16,184][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:03:16,189][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 21:03:16,208][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 21:04:18,509][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 20336 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 21:04:18,514][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 21:04:19,717][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 21:04:19,868][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+[2024-04-26 21:04:21,173][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 21:04:21,190][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:04:21,195][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 21:04:21,196][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 21:04:21,336][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 21:04:21,336][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 2800 ms
+[2024-04-26 21:04:21,647][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 21:04:21,764][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 21:04:21,844][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 21:04:22,242][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 21:04:22,312][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 21:04:22,708][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6dd20ec9
+[2024-04-26 21:04:22,712][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 21:04:24,242][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 21:04:24,293][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:04:24,653][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 21:04:25,152][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 21:04:25,601][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 21:04:25,749][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:04:25,781][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 57810 (http) with context path ''
+[2024-04-26 21:04:25,795][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 7.972 seconds (process running for 9.278)
+[2024-04-26 21:04:26,762][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:04:26,767][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 21:04:26,773][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 21:32:23,342][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 18.0.2.1 with PID 14436 (started by USER in E:\binar\Binar Batch 7\MODUL\batch7\batch7-spring-boot)
+[2024-04-26 21:32:23,347][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-04-26 21:32:24,679][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][143]Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-04-26 21:32:24,800][INFO ][org.springframework.data.repository.config.RepositoryConfigurationDelegate][main][211]Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+[2024-04-26 21:32:26,491][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][109]Tomcat initialized with port 0 (http)
+[2024-04-26 21:32:26,517][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:32:26,522][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting service [Tomcat]
+[2024-04-26 21:32:26,522][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting Servlet engine: [Apache Tomcat/10.1.20]
+[2024-04-26 21:32:26,753][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Initializing Spring embedded WebApplicationContext
+[2024-04-26 21:32:26,757][INFO ][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext][main][296]Root WebApplicationContext: initialization completed in 3370 ms
+[2024-04-26 21:32:27,112][INFO ][org.hibernate.jpa.internal.util.LogHelper][main][31]HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-04-26 21:32:27,266][INFO ][org.hibernate.Version][main][44]HHH000412: Hibernate ORM core version 6.4.4.Final
+[2024-04-26 21:32:27,354][INFO ][org.hibernate.cache.internal.RegionFactoryInitiator][main][50]HHH000026: Second-level cache disabled
+[2024-04-26 21:32:27,835][INFO ][org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo][main][87]No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-04-26 21:32:27,894][INFO ][com.zaxxer.hikari.HikariDataSource][main][110]HikariPool-1 - Starting...
+[2024-04-26 21:32:28,262][INFO ][com.zaxxer.hikari.pool.HikariPool][main][565]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e948f1c
+[2024-04-26 21:32:28,269][INFO ][com.zaxxer.hikari.HikariDataSource][main][123]HikariPool-1 - Start completed.
+[2024-04-26 21:32:30,516][INFO ][org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator][main][58]HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-04-26 21:32:30,597][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][main][437]Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:32:31,151][INFO ][org.springframework.data.jpa.repository.query.QueryEnhancerFactory][main][49]Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-04-26 21:32:32,040][WARN ][org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration][main][232]spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-04-26 21:32:32,828][WARN ][org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration][main][101]Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2024-04-26 21:32:33,064][INFO ][org.apache.juli.logging.DirectJDKLog][main][173]Starting ProtocolHandler ["http-nio-auto-1"]
+[2024-04-26 21:32:33,129][INFO ][org.springframework.boot.web.embedded.tomcat.TomcatWebServer][main][241]Tomcat started on port 58866 (http) with context path ''
+[2024-04-26 21:32:33,146][INFO ][org.springframework.boot.StartupInfoLogger][main][56]Started TestingSp in 10.741 seconds (process running for 12.716)
+[2024-04-26 21:32:34,533][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-04-26 21:32:34,540][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-04-26 21:32:34,559][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.
+[2024-04-26 21:33:01,333][INFO ][org.apache.juli.logging.DirectJDKLog][http-nio-8081-exec-2][173]Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-04-26 21:33:01,341][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-2][532]Initializing Servlet 'dispatcherServlet'
+[2024-04-26 21:33:01,457][INFO ][org.springframework.web.servlet.FrameworkServlet][http-nio-8081-exec-2][554]Completed initialization in 113 ms
